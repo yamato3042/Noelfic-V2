@@ -1,0 +1,19 @@
+.profil {
+    display: flex;
+    flex-direction: row;
+}
+.profil img {
+    border: 1px black solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.info {
+    border-left: 2px black solid;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+
+.chapitres {
+    text-align: center;
+}

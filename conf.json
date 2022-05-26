@@ -1,0 +1,12 @@
+{
+    "port": 18080,
+
+    "bdd_addr": "localhost",
+    "bdd_bdd": "noelfic",
+    "bdd_usr": "noel",
+    "bdd_pswd": "1234",
+    "bdd_port": 5432,
+
+    "captcha": "xxx",
+    "sitekey": "xxx"
+}

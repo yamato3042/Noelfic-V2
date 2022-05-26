@@ -1,0 +1,26 @@
+.corp {
+    text-align: center;
+}
+
+.dernchaps {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.dernchaps tr {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.dernchaps td {
+    text-align: left;
+    width: 20%;
+    font-size: 105%;
+}
+
+.dernchaps a {
+    text-decoration:none;
+    color: rgb(2, 123, 184);
+}

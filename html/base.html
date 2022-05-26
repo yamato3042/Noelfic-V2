@@ -1,0 +1,45 @@
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/static/css/base.css" />
+    <link rel="stylesheet" href="/static/css/balises.css" />
+    {headcss}
+    <title>Noelfic</title>
+    <link rel="icon" type="image/png" href="/static/res/favicon.png"/>
+</head>
+
+<body>
+    <header>
+        <img src="/static/res/baniere_texte.png" alt="<h1>Noelfic</h1>">
+    </header>
+
+    <!-- la navigation de base-->
+    <main>
+        <div class="cat">
+            <a href="/" class="bouton">Accueil</a>
+            <a href="/charte" class="bouton">Charte</a>
+            <a href="https://www.encyclopedianoelica.com/Noelfic" class="bouton">Historique</a>
+            {compte}
+        </div>
+
+        {main}
+        
+        <!--La recherche-->
+        <div class="cat">
+            <form action="recherche" method="get">
+                <p><input type="text" name="search" placeholder="Rechercher..." class="recherche"/></p>
+                <p><input type="submit" value="Rechercher" class="bouton"/></p>
+            </form>
+            <h2>Fics</h2>
+            <a href="/hasard" class="bouton">Au hasard</a>
+            <h2>Classement</h2>
+            <a href="index.html" class="bouton">Par genre</a>
+            <a href="index.html" class="bouton">Par date</a>
+            <a href="index.html" class="bouton">Par note</a>
+            <a href="index.html" class="bouton">Par popularité</a>
+        </div>
+    </main>
+    <footer class="crt">
+        <p>NoelFic.fr - 2008-2020</p>
+        <p><a href="/contact">Contact</a></p>
+    </footer>
+</body>

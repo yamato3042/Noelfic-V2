@@ -1,0 +1,124 @@
+.corp {
+    text-align: center;
+    font-family: arial;
+}
+/*@font-face {font-family: "noto"; src: url('res/NotoSerif-Regular.ttf'); }*/
+.corp .texte {
+    border: 1px solid lightgray;
+    box-shadow: 5px -5px grey;
+    background-color: lightgray;
+    text-align: justify;
+    color: black;
+    /*font-family: noto;*/
+    font-size: 90%;
+    padding: 10px;
+    margin: 20px;
+    font-family: arial;
+}
+/* Les boutons de navigation*/
+.navchap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav_but {
+    color: white;
+    border: outset 1px rgb(66, 66, 66);
+    background-color: rgb(66, 66, 66);
+    border-radius: 3px;
+    margin-right: 5px;
+    padding: 3px;
+    text-decoration: none;
+    width: 15px;
+    padding-right: 20px;
+    text-align: center;
+}
+.nav_cur {
+    padding-right: 20px;
+    margin-right: 5px;
+    font-weight: bold;
+    color: orange;
+
+}
+.nav_but:hover {
+    background-color: rgb(80, 80, 80);
+    border-color: rgb(80, 80, 80);
+}
+/* Les commentaires */
+.commentaires {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.comment {
+    margin-top: 10px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.com_haut {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.com_psd {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 90%;
+}
+.com_date {
+    font-size: 70%;
+}
+
+.com_bas {
+    display: flex;
+    flex-direction: row;
+}
+.com_pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.com_text {
+    font-size: 80%;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.note img {
+    width: 25px;
+    height: 25px;
+}
+
+
+.compost {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.compost label {
+    margin-bottom: 5px;
+}
+
+.compost textarea {
+    margin-bottom: 5px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+.compost .bouton {
+    margin-left: 80%;
+    margin-right: 10%;
+    margin-top: 8px;
+}
